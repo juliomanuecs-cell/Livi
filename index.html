@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi niña hermosa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f6;
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #4a4a4a;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            max-width: 600px;
+            text-align: center;
+            border-top: 5px solid #e08e9b;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            color: #d67280;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #d67280;
+        }
+
+        .signature {
+            margin-top: 40px;
+            font-size: 1.4em;
+            font-style: italic;
+            color: #d67280;
+        }
+
+        .heart {
+            color: #e08e9b;
+            font-size: 2em;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="heart">♥</div>
+        <h1>Para mi hermosa Livier</h1>
+        
+        <p>Quería crear este pequeño espacio especialmente para ti, para detener el tiempo un momento y recordarte lo grande que es mi amor por ti.</p>
+        
+        <p>Eres la mujer de mi vida, mi refugio y mi lugar favorito en el mundo entero. A tu lado he encontrado un amor que me llena de paz y de alegría. No importa qué pase en el mundo exterior, mi regalo más grande siempre vas a ser tú.</p>
+
+        <p>Eres mi presente, mi futuro y lo mas bonito que me pudo haber pasado. Quiero que nunca olvides lo especial, valiosa y amada que eres para mí.</p>
+        
+        <p class="highlight">Te amo con toda mi alma, hoy y siempre.</p>
+        
+        <div class="signature">Siempre tuyo,<br>Manuel</div>
+    </div>
+
+</body>
+</html>
